@@ -1,0 +1,10 @@
+C:\Users\mbhar\Desktop\MCA\.Net projects\lab1AllControls\lab1AllControls\bin\Debug\lab1AllControls.exe.config
+C:\Users\mbhar\Desktop\MCA\.Net projects\lab1AllControls\lab1AllControls\bin\Debug\lab1AllControls.exe
+C:\Users\mbhar\Desktop\MCA\.Net projects\lab1AllControls\lab1AllControls\bin\Debug\lab1AllControls.pdb
+C:\Users\mbhar\Desktop\MCA\.Net projects\lab1AllControls\lab1AllControls\obj\Debug\lab1AllControls.csproj.AssemblyReference.cache
+C:\Users\mbhar\Desktop\MCA\.Net projects\lab1AllControls\lab1AllControls\obj\Debug\lab1AllControls.Form1.resources
+C:\Users\mbhar\Desktop\MCA\.Net projects\lab1AllControls\lab1AllControls\obj\Debug\lab1AllControls.Properties.Resources.resources
+C:\Users\mbhar\Desktop\MCA\.Net projects\lab1AllControls\lab1AllControls\obj\Debug\lab1AllControls.csproj.GenerateResource.cache
+C:\Users\mbhar\Desktop\MCA\.Net projects\lab1AllControls\lab1AllControls\obj\Debug\lab1AllControls.csproj.CoreCompileInputs.cache
+C:\Users\mbhar\Desktop\MCA\.Net projects\lab1AllControls\lab1AllControls\obj\Debug\lab1AllControls.exe
+C:\Users\mbhar\Desktop\MCA\.Net projects\lab1AllControls\lab1AllControls\obj\Debug\lab1AllControls.pdb

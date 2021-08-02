@@ -39,7 +39,19 @@ namespace lab1AllControls
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-
+            String userName, password, result;
+            //a = Convert.ToInt32(num1.Text);
+            //b = Convert.ToInt32(num2.Text);
+            userName = txtUsername.Text;
+            password = txtPassword.Text;
+            if(userName == "manish" && password == "password")
+            {
+               MessageBox.Show("Login Successful!","Login Dialoge", MessageBoxButtons.OK);
+            }
+            else
+            {
+                MessageBox.Show("Invalid credential!!\nTry again!!!!!!!!!!", "Login Dialoge", MessageBoxButtons.OK);
+            }
         }
     }
 }
