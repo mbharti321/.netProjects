@@ -8,3 +8,4 @@ C:\Users\mbhar\Desktop\MCA\.Net projects\lab1AllControls\lab1AllControls\obj\Deb
 C:\Users\mbhar\Desktop\MCA\.Net projects\lab1AllControls\lab1AllControls\obj\Debug\lab1AllControls.csproj.CoreCompileInputs.cache
 C:\Users\mbhar\Desktop\MCA\.Net projects\lab1AllControls\lab1AllControls\obj\Debug\lab1AllControls.exe
 C:\Users\mbhar\Desktop\MCA\.Net projects\lab1AllControls\lab1AllControls\obj\Debug\lab1AllControls.pdb
+C:\Users\mbhar\Desktop\MCA\.Net projects\lab1AllControls\lab1AllControls\obj\Debug\lab1AllControls.formHome.resources

@@ -47,11 +47,26 @@ namespace lab1AllControls
             if(userName == "manish" && password == "password")
             {
                MessageBox.Show("Login Successful!","Login Dialoge", MessageBoxButtons.OK);
+                formHome home = new formHome();
+                home.Show();
+                this.Hide();
             }
             else
             {
                 MessageBox.Show("Invalid credential!!\nTry again!!!!!!!!!!", "Login Dialoge", MessageBoxButtons.OK);
             }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            formRegister register = new formRegister();
+            register.Show();
+            this.Hide();
         }
     }
 }
