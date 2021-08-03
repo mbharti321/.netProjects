@@ -139,7 +139,7 @@ namespace lab1AllControls
             this.btnRegister.TabIndex = 7;
             this.btnRegister.Text = "Register here.";
             this.btnRegister.UseVisualStyleBackColor = false;
-            this.btnRegister.Click += new System.EventHandler(this.button1_Click);
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // groupBox2
             // 

@@ -62,7 +62,7 @@ namespace lab1AllControls
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnRegister_Click(object sender, EventArgs e)
         {
             formRegister register = new formRegister();
             register.Show();
