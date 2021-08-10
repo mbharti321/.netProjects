@@ -312,6 +312,18 @@ namespace lab1AllControls
             // comboState
             // 
             this.comboState.FormattingEnabled = true;
+            this.comboState.Items.AddRange(new object[] {
+            "Karnatka",
+            "Bihar",
+            "Kerla",
+            "Jharkhand",
+            "Utrakhand",
+            "Gujrat",
+            "Uttarpradesh",
+            "Punjab",
+            "Assam",
+            "Manipur",
+            "Goa"});
             this.comboState.Location = new System.Drawing.Point(87, 194);
             this.comboState.Name = "comboState";
             this.comboState.Size = new System.Drawing.Size(109, 21);
@@ -320,6 +332,13 @@ namespace lab1AllControls
             // comboCity
             // 
             this.comboCity.FormattingEnabled = true;
+            this.comboCity.Items.AddRange(new object[] {
+            "Bangalore Urbun",
+            "Bangalore Rural",
+            "Udupi",
+            "Mangalore",
+            "Bellari",
+            "Ramnagar"});
             this.comboCity.Location = new System.Drawing.Point(269, 192);
             this.comboCity.Name = "comboCity";
             this.comboCity.Size = new System.Drawing.Size(109, 21);
