@@ -22,7 +22,7 @@
   <img src="../Screenshots/foodmenu.png" width="500" title="loginSuccess">
 </p><p align="center">
   <h3>Add new food</h3>
-  <img src="../Screenshots/" width="500" title="Home">
+  <img src="../Screenshots/addNewFood.png" width="500" title="Home">
 </p>
 
 
