@@ -12,17 +12,17 @@
 ## Screenshots
 <p align="center">
   <h3>Home Updated</h3>
-  <img src="./Screenshots/homeUpdated.png" width="500" title="LoginForm">
+  <img src="../Screenshots/homeUpdated.png" width="500" title="LoginForm">
 </p>
 <p align="center">
   <h3>Order</h3>
-  <img src="./Screenshots/order.png" width="500" title="Registration">
+  <img src="../Screenshots/order.png" width="500" title="Registration">
 </p><p align="center">
   <h3>Menu</h3>
-  <img src="./Screenshots/foodmenu.png" width="500" title="loginSuccess">
+  <img src="../Screenshots/foodmenu.png" width="500" title="loginSuccess">
 </p><p align="center">
   <h3>Add new food</h3>
-  <img src="./Screenshots/addNewFood.png" width="500" title="Home">
+  <img src="../Screenshots/" width="500" title="Home">
 </p>
 
 
