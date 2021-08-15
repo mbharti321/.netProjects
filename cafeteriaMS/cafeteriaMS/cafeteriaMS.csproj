@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="order.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="order.resx">
       <DependentUpon>order.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,6 +139,14 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database2.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\rice Dal.jpg" />
+    <None Include="Resources\pulao.jpg" />
+    <None Include="Resources\pizza.jpg" />
+    <None Include="Resources\dosa.jpg" />
+    <None Include="Resources\chicken.jpg" />
+    <None Include="Resources\biryani.jpg" />
+    <None Include="Resources\nonVeg.png" />
+    <None Include="Resources\toppng.com-veg-1180x1172.png" />
     <None Include="Resources\orderFood.jpg" />
     <None Include="Resources\logo.jpg" />
     <None Include="Resources\1316148-funny-and-cute-wallpapers-2880x1800-for-meizu.jpg" />

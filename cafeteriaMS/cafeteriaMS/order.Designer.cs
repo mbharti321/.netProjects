@@ -38,8 +38,6 @@ namespace cafeteriaMS
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureLogo = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.lblFoodName = new System.Windows.Forms.Label();
@@ -49,14 +47,16 @@ namespace cafeteriaMS
             this.dtpDeliveryTime = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureLogo = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupHome.SuspendLayout();
             this.groupNav.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupHome
@@ -110,6 +110,7 @@ namespace cafeteriaMS
             this.linkLblMenu.TabIndex = 3;
             this.linkLblMenu.TabStop = true;
             this.linkLblMenu.Text = "Menu";
+            this.linkLblMenu.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLblMenu_LinkClicked);
             // 
             // linkLblOrder
             // 
@@ -176,27 +177,6 @@ namespace cafeteriaMS
             this.label1.Size = new System.Drawing.Size(101, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "Order";
-            // 
-            // pictureLogo
-            // 
-            this.pictureLogo.Image = global::cafeteriaMS.Properties.Resources.logo;
-            this.pictureLogo.InitialImage = null;
-            this.pictureLogo.Location = new System.Drawing.Point(6, 11);
-            this.pictureLogo.Name = "pictureLogo";
-            this.pictureLogo.Size = new System.Drawing.Size(119, 71);
-            this.pictureLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureLogo.TabIndex = 1;
-            this.pictureLogo.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::cafeteriaMS.Properties.Resources.orderFood;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 105);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(314, 294);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // groupBox2
             // 
@@ -294,6 +274,27 @@ namespace cafeteriaMS
             this.button1.Text = "Place Order";
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // pictureLogo
+            // 
+            this.pictureLogo.Image = global::cafeteriaMS.Properties.Resources.logo;
+            this.pictureLogo.InitialImage = null;
+            this.pictureLogo.Location = new System.Drawing.Point(6, 11);
+            this.pictureLogo.Name = "pictureLogo";
+            this.pictureLogo.Size = new System.Drawing.Size(119, 71);
+            this.pictureLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureLogo.TabIndex = 1;
+            this.pictureLogo.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::cafeteriaMS.Properties.Resources.orderFood;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 105);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(314, 294);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // formOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -306,13 +307,13 @@ namespace cafeteriaMS
             this.groupNav.ResumeLayout(false);
             this.groupNav.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

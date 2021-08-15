@@ -40,5 +40,13 @@ namespace cafeteriaMS
             order.Show();
             this.Hide();
         }
+
+        private void linkLblMenu_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            formMenu menu = new formMenu();
+            menu.Show();
+            this.Hide();
+            
+        }
     }
 }
