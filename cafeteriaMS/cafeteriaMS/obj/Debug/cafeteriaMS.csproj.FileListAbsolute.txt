@@ -21,3 +21,4 @@ C:\Users\mbhar\Desktop\MCA\dotNetProjects\cafeteriaMS\cafeteriaMS\bin\Debug\cafe
 C:\Users\mbhar\Desktop\MCA\dotNetProjects\cafeteriaMS\cafeteriaMS\obj\Debug\cafeteriaMS.exe
 C:\Users\mbhar\Desktop\MCA\dotNetProjects\cafeteriaMS\cafeteriaMS\obj\Debug\cafeteriaMS.pdb
 C:\Users\mbhar\Desktop\MCA\dotNetProjects\cafeteriaMS\cafeteriaMS\obj\Debug\cafeteriaMS.formLogin.resources
+C:\Users\mbhar\Desktop\MCA\dotNetProjects\cafeteriaMS\cafeteriaMS\obj\Debug\cafeteriaMS.formOrder.resources
