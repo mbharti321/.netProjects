@@ -39,15 +39,15 @@ namespace cafeteriaMS
             this.linkLblOrder = new System.Windows.Forms.LinkLabel();
             this.linkLblMenu = new System.Windows.Forms.LinkLabel();
             this.linkLblAccount = new System.Windows.Forms.LinkLabel();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.pictureLogo = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupHome.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupNav.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupHome
@@ -69,7 +69,7 @@ namespace cafeteriaMS
             this.groupBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.groupBox1.Location = new System.Drawing.Point(29, 107);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(887, 328);
+            this.groupBox1.Size = new System.Drawing.Size(887, 354);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
@@ -125,6 +125,7 @@ namespace cafeteriaMS
             this.linkLblHome.TabIndex = 0;
             this.linkLblHome.TabStop = true;
             this.linkLblHome.Text = "Home";
+            this.linkLblHome.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLblHome_LinkClicked);
             // 
             // linkLblOrder
             // 
@@ -139,6 +140,7 @@ namespace cafeteriaMS
             this.linkLblOrder.TabIndex = 2;
             this.linkLblOrder.TabStop = true;
             this.linkLblOrder.Text = "Order";
+            this.linkLblOrder.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLblOrder_LinkClicked);
             // 
             // linkLblMenu
             // 
@@ -153,6 +155,7 @@ namespace cafeteriaMS
             this.linkLblMenu.TabIndex = 3;
             this.linkLblMenu.TabStop = true;
             this.linkLblMenu.Text = "Menu";
+            this.linkLblMenu.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLblMenu_LinkClicked);
             // 
             // linkLblAccount
             // 
@@ -167,6 +170,16 @@ namespace cafeteriaMS
             this.linkLblAccount.TabIndex = 4;
             this.linkLblAccount.TabStop = true;
             this.linkLblAccount.Text = "Account";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.Gainsboro;
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Location = new System.Drawing.Point(1, 10);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(884, 57);
+            this.groupBox2.TabIndex = 3;
+            this.groupBox2.TabStop = false;
             // 
             // pictureLogo
             // 
@@ -189,16 +202,6 @@ namespace cafeteriaMS
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.Gainsboro;
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(1, 10);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(884, 57);
-            this.groupBox2.TabIndex = 3;
-            this.groupBox2.TabStop = false;
-            // 
             // formHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -213,10 +216,10 @@ namespace cafeteriaMS
             this.groupBox1.PerformLayout();
             this.groupNav.ResumeLayout(false);
             this.groupNav.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -26,5 +26,19 @@ namespace cafeteriaMS
         {
 
         }
+
+        private void linkLblHome_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            formHome home = new formHome();
+            home.Show();
+            this.Hide();
+        }
+
+        private void linkLblOrder_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            formOrder order = new formOrder();
+            order.Show();
+            this.Hide();
+        }
     }
 }

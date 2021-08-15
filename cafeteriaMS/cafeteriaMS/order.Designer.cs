@@ -45,6 +45,10 @@ namespace cafeteriaMS
             this.lblFoodName = new System.Windows.Forms.Label();
             this.comboFoodName = new System.Windows.Forms.ComboBox();
             this.lblQuantity = new System.Windows.Forms.Label();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.dtpDeliveryTime = new System.Windows.Forms.DateTimePicker();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupHome.SuspendLayout();
             this.groupNav.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -52,6 +56,7 @@ namespace cafeteriaMS
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupHome
@@ -119,6 +124,7 @@ namespace cafeteriaMS
             this.linkLblOrder.TabIndex = 2;
             this.linkLblOrder.TabStop = true;
             this.linkLblOrder.Text = "Order";
+            this.linkLblOrder.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLblOrder_LinkClicked);
             // 
             // linkLblHome
             // 
@@ -133,6 +139,7 @@ namespace cafeteriaMS
             this.linkLblHome.TabIndex = 0;
             this.linkLblHome.TabStop = true;
             this.linkLblHome.Text = "Home";
+            this.linkLblHome.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLblHome_LinkClicked);
             // 
             // groupBox1
             // 
@@ -203,11 +210,15 @@ namespace cafeteriaMS
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.button1);
+            this.groupBox3.Controls.Add(this.label3);
+            this.groupBox3.Controls.Add(this.dtpDeliveryTime);
+            this.groupBox3.Controls.Add(this.numericUpDown1);
             this.groupBox3.Controls.Add(this.lblQuantity);
             this.groupBox3.Controls.Add(this.comboFoodName);
             this.groupBox3.Controls.Add(this.lblFoodName);
             this.groupBox3.Controls.Add(this.label2);
-            this.groupBox3.Location = new System.Drawing.Point(326, 73);
+            this.groupBox3.Location = new System.Drawing.Point(327, 73);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(465, 360);
             this.groupBox3.TabIndex = 3;
@@ -248,6 +259,41 @@ namespace cafeteriaMS
             this.lblQuantity.Text = "Quantity";
             this.lblQuantity.Click += new System.EventHandler(this.label3_Click);
             // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(152, 108);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(119, 20);
+            this.numericUpDown1.TabIndex = 4;
+            // 
+            // dtpDeliveryTime
+            // 
+            this.dtpDeliveryTime.Location = new System.Drawing.Point(151, 150);
+            this.dtpDeliveryTime.Name = "dtpDeliveryTime";
+            this.dtpDeliveryTime.Size = new System.Drawing.Size(200, 20);
+            this.dtpDeliveryTime.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(17, 151);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(115, 20);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Delivery Time";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(116, 299);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(206, 44);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Place Order";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // formOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -266,6 +312,7 @@ namespace cafeteriaMS
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -288,5 +335,9 @@ namespace cafeteriaMS
         private System.Windows.Forms.Label lblQuantity;
         private System.Windows.Forms.ComboBox comboFoodName;
         private System.Windows.Forms.Label lblFoodName;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DateTimePicker dtpDeliveryTime;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }

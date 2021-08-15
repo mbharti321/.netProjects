@@ -10,31 +10,18 @@ using System.Windows.Forms;
 
 namespace cafeteriaMS
 {
-    public partial class formHome : Form
+    public partial class formMenu : Form
     {
-        public formHome()
+        public formMenu()
         {
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void linkLblMenu_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
+            formMenu menu = new formMenu();
+            menu.Show();
+            this.Hide();
         }
 
         private void linkLblOrder_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -48,13 +35,6 @@ namespace cafeteriaMS
         {
             formHome home = new formHome();
             home.Show();
-            this.Hide();
-        }
-
-        private void linkLblMenu_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            formMenu menu = new formMenu();
-            menu.Show();
             this.Hide();
         }
     }
