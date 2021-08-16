@@ -1,15 +1,17 @@
-## Lab2
-
-1. Datetimepicker
-2. Numeric updown
-3. Month Calander
-4. Rich textbox
-5. Save Dialogue control
-6. Font Dialogue Control
-7. Open Dialogue Control
-
+## Lab3: DB with domain pgm
 
 ## Screenshots
+
+<p align="center">
+  <h3>LoginTable</h3>
+  <img src="../Screenshots/loginTable.png" width="500" title="LoginForm">
+</p>
+<p align="center">
+  <h3>Login Using Database</h3>
+  <img src="../Screenshots/LoginUsing%20Database.png" width="500" title="Registration">
+</p><p align="center">
+
+<br>
 <p align="center">
   <h3>Home Updated</h3>
   <img src="../Screenshots/homeUpdated.png" width="500" title="LoginForm">
