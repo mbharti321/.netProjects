@@ -41,8 +41,8 @@ namespace labTest1_hotelManagement
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
-        {   
-            String updateQuery = "Update food1947235 set fooName ='" + txtFoodName.Text + ", foodPrice ='" + txtPrice.Text + "', foodType ='" + comboFoodtype.Text +"', foodFescription ='" + richTextDescription.Text + "' where id='" + txtId.Text + "'";
+        {
+            String updateQuery = "Update food1947235 set fooName ='" + txtFoodName.Text + "', foodPrice ='" + txtPrice.Text + "', foodType ='" + comboFoodtype.Text + "', foodFescription ='" + richTextDescription.Text + "' where id='" + txtId.Text + "'";
             SqlCommand cd = new SqlCommand(updateQuery, conn);
             conn.Open();
             cd.ExecuteNonQuery();
@@ -55,7 +55,7 @@ namespace labTest1_hotelManagement
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            SqlCommand cd = new SqlCommand("Delete from food1947235 where id='" + txtId.Text + "'", conn);
+            SqlCommand cd = new SqlCommand("Delete from food1947235 where id='" + Convert.ToInt32(txtId.Text) + "'", conn);
             conn.Open();
             cd.ExecuteNonQuery();
             conn.Close();
@@ -88,6 +88,13 @@ namespace labTest1_hotelManagement
         private void groupBox2_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            formHome homeObj = new formHome();
+            homeObj.Show();
+            this.Hide();
         }
     }
 }

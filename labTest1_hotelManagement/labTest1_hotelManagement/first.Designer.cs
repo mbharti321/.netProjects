@@ -114,7 +114,7 @@ namespace labTest1_hotelManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(874, 450);
+            this.ClientSize = new System.Drawing.Size(944, 473);
             this.Controls.Add(this.Login);
             this.Name = "firstForm";
             this.Text = "First";
