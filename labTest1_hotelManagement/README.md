@@ -3,7 +3,7 @@
 ## Domain: Hotel Managment
 
 ### Video Recording
-[![Screen record](screenshots/LabTest1_1947235.mp4)](screenshots/LabTest1_1947235.mp4)
+![Screen record](https://www.youtube.com/watch?v=DteNhQNHbzU)
 
 
 ## Screenshots
