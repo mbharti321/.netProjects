@@ -107,5 +107,12 @@ namespace cafeteriaMS
             login.Show();
             this.Hide();
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            formLogin login = new formLogin();
+            login.Show();
+            this.Hide();
+        }
     }
 }

@@ -30,6 +30,7 @@ namespace cafeteriaMS
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
@@ -41,14 +42,6 @@ namespace cafeteriaMS
             this.btnRegister = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label6 = new System.Windows.Forms.Label();
-            this.comboCity = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.comboState = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.radioOthers = new System.Windows.Forms.RadioButton();
             this.radioFemale = new System.Windows.Forms.RadioButton();
@@ -62,7 +55,8 @@ namespace cafeteriaMS
             this.btnImage = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnLogin = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -78,12 +72,23 @@ namespace cafeteriaMS
             this.groupBox1.Controls.Add(this.btnLogin);
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 2);
+            this.groupBox1.Location = new System.Drawing.Point(15, 9);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(822, 483);
+            this.groupBox1.Size = new System.Drawing.Size(782, 407);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Registeration Form";
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Location = new System.Drawing.Point(21, 24);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(92, 32);
+            this.btnLogin.TabIndex = 2;
+            this.btnLogin.Text = "<- Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // groupBox2
             // 
@@ -91,7 +96,7 @@ namespace cafeteriaMS
             this.groupBox2.Controls.Add(this.groupBox3);
             this.groupBox2.Location = new System.Drawing.Point(26, 82);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(723, 380);
+            this.groupBox2.Size = new System.Drawing.Size(723, 311);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             // 
@@ -104,14 +109,6 @@ namespace cafeteriaMS
             this.groupBox4.Controls.Add(this.groupBox5);
             this.groupBox4.Controls.Add(this.linkLabel1);
             this.groupBox4.Controls.Add(this.checkBox1);
-            this.groupBox4.Controls.Add(this.dateTimePicker1);
-            this.groupBox4.Controls.Add(this.label6);
-            this.groupBox4.Controls.Add(this.comboCity);
-            this.groupBox4.Controls.Add(this.label5);
-            this.groupBox4.Controls.Add(this.comboState);
-            this.groupBox4.Controls.Add(this.label4);
-            this.groupBox4.Controls.Add(this.textBox1);
-            this.groupBox4.Controls.Add(this.label3);
             this.groupBox4.Controls.Add(this.groupBox6);
             this.groupBox4.Controls.Add(this.txtEmail);
             this.groupBox4.Controls.Add(this.lblEmail);
@@ -119,7 +116,7 @@ namespace cafeteriaMS
             this.groupBox4.Controls.Add(this.lblName);
             this.groupBox4.Location = new System.Drawing.Point(21, 19);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(471, 355);
+            this.groupBox4.Size = new System.Drawing.Size(471, 272);
             this.groupBox4.TabIndex = 1;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Details";
@@ -163,11 +160,13 @@ namespace cafeteriaMS
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.linkLabel2);
+            this.groupBox5.Controls.Add(this.label9);
             this.groupBox5.Controls.Add(this.btnReset);
             this.groupBox5.Controls.Add(this.btnRegister);
-            this.groupBox5.Location = new System.Drawing.Point(32, 289);
+            this.groupBox5.Location = new System.Drawing.Point(13, 180);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(351, 55);
+            this.groupBox5.Size = new System.Drawing.Size(432, 77);
             this.groupBox5.TabIndex = 2;
             this.groupBox5.TabStop = false;
             // 
@@ -200,7 +199,7 @@ namespace cafeteriaMS
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(49, 274);
+            this.linkLabel1.Location = new System.Drawing.Point(44, 159);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(157, 15);
             this.linkLabel1.TabIndex = 14;
@@ -210,110 +209,21 @@ namespace cafeteriaMS
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(20, 275);
+            this.checkBox1.Location = new System.Drawing.Point(15, 160);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 13;
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(88, 166);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(189, 20);
-            this.dateTimePicker1.TabIndex = 12;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(16, 164);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 16);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "DOB";
-            // 
-            // comboCity
-            // 
-            this.comboCity.FormattingEnabled = true;
-            this.comboCity.Items.AddRange(new object[] {
-            "Bangalore Urbun",
-            "Bangalore Rural",
-            "Udupi",
-            "Mangalore",
-            "Bellari",
-            "Ramnagar"});
-            this.comboCity.Location = new System.Drawing.Point(269, 219);
-            this.comboCity.Name = "comboCity";
-            this.comboCity.Size = new System.Drawing.Size(109, 21);
-            this.comboCity.TabIndex = 10;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(216, 221);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(34, 16);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "City";
-            // 
-            // comboState
-            // 
-            this.comboState.FormattingEnabled = true;
-            this.comboState.Items.AddRange(new object[] {
-            "Karnatka",
-            "Bihar",
-            "Kerla",
-            "Jharkhand",
-            "Utrakhand",
-            "Gujrat",
-            "Uttarpradesh",
-            "Punjab",
-            "Assam",
-            "Manipur",
-            "Goa"});
-            this.comboState.Location = new System.Drawing.Point(87, 221);
-            this.comboState.Name = "comboState";
-            this.comboState.Size = new System.Drawing.Size(109, 21);
-            this.comboState.TabIndex = 8;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(17, 223);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 16);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "State";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(88, 193);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(291, 20);
-            this.textBox1.TabIndex = 6;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(16, 193);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 16);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Address";
-            // 
             // groupBox6
             // 
-            this.groupBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.groupBox6.BackColor = System.Drawing.Color.Transparent;
             this.groupBox6.Controls.Add(this.radioOthers);
             this.groupBox6.Controls.Add(this.radioFemale);
             this.groupBox6.Controls.Add(this.radioMale);
             this.groupBox6.Controls.Add(this.label2);
-            this.groupBox6.Location = new System.Drawing.Point(13, 117);
+            this.groupBox6.Location = new System.Drawing.Point(13, 113);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(363, 35);
             this.groupBox6.TabIndex = 4;
@@ -365,7 +275,7 @@ namespace cafeteriaMS
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(332, 26);
+            this.txtEmail.Location = new System.Drawing.Point(312, 26);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(113, 20);
             this.txtEmail.TabIndex = 3;
@@ -440,22 +350,34 @@ namespace cafeteriaMS
             this.label1.TabIndex = 0;
             this.label1.Text = "Register";
             // 
-            // btnLogin
+            // label9
             // 
-            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(21, 24);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(92, 32);
-            this.btnLogin.TabIndex = 2;
-            this.btnLogin.Text = "<- Login";
-            this.btnLogin.UseVisualStyleBackColor = true;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(32, 57);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(191, 16);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "Already have an account? ";
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel2.LinkColor = System.Drawing.Color.Green;
+            this.linkLabel2.Location = new System.Drawing.Point(220, 56);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(81, 16);
+            this.linkLabel2.TabIndex = 19;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Login here";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // formRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(846, 476);
+            this.ClientSize = new System.Drawing.Size(818, 428);
             this.Controls.Add(this.groupBox1);
             this.Name = "formRegister";
             this.Text = "Register";
@@ -465,6 +387,7 @@ namespace cafeteriaMS
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -491,17 +414,9 @@ namespace cafeteriaMS
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboCity;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboState;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.RadioButton radioOthers;
         private System.Windows.Forms.RadioButton radioFemale;
         private System.Windows.Forms.RadioButton radioMale;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.TextBox txtUsername;
@@ -509,5 +424,7 @@ namespace cafeteriaMS
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.Label label9;
     }
 }

@@ -1,0 +1,12 @@
+C:\Users\mbhar\Desktop\MCA\dotNetProjects\university\university\university\bin\Debug\university.exe.config
+C:\Users\mbhar\Desktop\MCA\dotNetProjects\university\university\university\bin\Debug\university.exe
+C:\Users\mbhar\Desktop\MCA\dotNetProjects\university\university\university\bin\Debug\university.pdb
+C:\Users\mbhar\Desktop\MCA\dotNetProjects\university\university\university\obj\Debug\university.Properties.Resources.resources
+C:\Users\mbhar\Desktop\MCA\dotNetProjects\university\university\university\obj\Debug\university.csproj.GenerateResource.cache
+C:\Users\mbhar\Desktop\MCA\dotNetProjects\university\university\university\obj\Debug\university.csproj.CoreCompileInputs.cache
+C:\Users\mbhar\Desktop\MCA\dotNetProjects\university\university\university\obj\Debug\university.exe
+C:\Users\mbhar\Desktop\MCA\dotNetProjects\university\university\university\obj\Debug\university.pdb
+C:\Users\mbhar\Desktop\MCA\dotNetProjects\university\university\university\obj\Debug\university.csproj.AssemblyReference.cache
+C:\Users\mbhar\Desktop\MCA\dotNetProjects\university\university\university\bin\Debug\Database3.mdf
+C:\Users\mbhar\Desktop\MCA\dotNetProjects\university\university\university\bin\Debug\Database3_log.ldf
+C:\Users\mbhar\Desktop\MCA\dotNetProjects\university\university\university\obj\Debug\university.formUniversity.resources

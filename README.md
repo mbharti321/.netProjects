@@ -1,9 +1,6 @@
 # .netProjects
 
-# .netProjects
-
 ## Screenshots
-
 
 ### 16/08/2021
 <p align="center">

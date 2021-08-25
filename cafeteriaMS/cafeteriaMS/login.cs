@@ -13,6 +13,7 @@ namespace cafeteriaMS
 {
     public partial class formLogin : Form
     {
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\mbhar\Desktop\MCA\dotNetProjects\cafeteriaMS\cafeteriaMS\Database2.mdf;Integrated Security=True");
         public formLogin()
         {
             InitializeComponent();
@@ -38,10 +39,6 @@ namespace cafeteriaMS
 
             //a = Convert.ToInt32(num1.Text);
             //b = Convert.ToInt32(num2.Text);
-        }
-
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
             String userName, password;
             userName = txtUsername.Text;
             password = txtPassword.Text;
@@ -57,6 +54,35 @@ namespace cafeteriaMS
                 MessageBox.Show("Invalid credential!!\nTry again!!!!!!!!!!", "Login Dialoge", MessageBoxButtons.OK);
             }
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            String userNameInput, passwordInput, password = "";
+            userNameInput = txtUsername.Text;
+            passwordInput = txtPassword.Text;
+
+            con.Open();
+            SqlCommand loginQuery = new SqlCommand("Select * From login where username = " + userNameInput + " ", con);
+           
+
+            SqlDataReader dataReader = loginQuery.ExecuteReader();
+            while (dataReader.Read())
+            {
+                password = dataReader.GetValue(1).ToString();
+            }
+            if (passwordInput == password)
+            {
+                MessageBox.Show("Login Successful!", "Login Dialoge", MessageBoxButtons.OK);
+                formHome home = new formHome();
+                home.Show();
+                this.Hide();
+            }
+            else{
+                MessageBox.Show("Invalid credential!!\nTry again!!!!!!!!!!", "Login Dialoge", MessageBoxButtons.OK);
+            }
+            con.Close();
+        }
+    
 
         private void label4_Click(object sender, EventArgs e)
         {
