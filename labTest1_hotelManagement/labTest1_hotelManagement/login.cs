@@ -16,5 +16,23 @@ namespace labTest1_hotelManagement
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            String userName, password;
+            userName = txtUsername.Text;
+            password = txtPassword.Text;
+            if (userName == "manish" && password == "password")
+            {
+                MessageBox.Show("Login Successful!", "Login Dialoge", MessageBoxButtons.OK);
+                formHome home = new formHome();
+                home.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Invalid credential!!\nTry again!!!!!!!!!!", "Login Dialoge", MessageBoxButtons.OK);
+            }
+        }
     }
 }

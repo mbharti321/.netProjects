@@ -9,3 +9,7 @@ C:\Users\mbhar\Desktop\MCA\dotNetProjects\labTest1_hotelManagement\labTest1_hote
 C:\Users\mbhar\Desktop\MCA\dotNetProjects\labTest1_hotelManagement\labTest1_hotelManagement\obj\Debug\labTest1_hotelManagement.csproj.CoreCompileInputs.cache
 C:\Users\mbhar\Desktop\MCA\dotNetProjects\labTest1_hotelManagement\labTest1_hotelManagement\obj\Debug\labTest1_hotelManagement.exe
 C:\Users\mbhar\Desktop\MCA\dotNetProjects\labTest1_hotelManagement\labTest1_hotelManagement\obj\Debug\labTest1_hotelManagement.pdb
+C:\Users\mbhar\Desktop\MCA\dotNetProjects\labTest1_hotelManagement\labTest1_hotelManagement\obj\Debug\labTest1_hotelManagement.formHome.resources
+C:\Users\mbhar\Desktop\MCA\dotNetProjects\labTest1_hotelManagement\labTest1_hotelManagement\bin\Debug\ManoCafe.mdf
+C:\Users\mbhar\Desktop\MCA\dotNetProjects\labTest1_hotelManagement\labTest1_hotelManagement\bin\Debug\ManoCafe_log.ldf
+C:\Users\mbhar\Desktop\MCA\dotNetProjects\labTest1_hotelManagement\labTest1_hotelManagement\obj\Debug\labTest1_hotelManagement.formFoodMenu.resources

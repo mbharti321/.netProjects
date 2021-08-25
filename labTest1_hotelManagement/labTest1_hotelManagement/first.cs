@@ -28,5 +28,10 @@ namespace labTest1_hotelManagement
             loginObj.Show();
             this.Hide();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
