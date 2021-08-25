@@ -3,7 +3,7 @@
 ## Domain: Hotel Managment
 
 ### Video Recording
-[![Screen record](screenshots/LabTest1_1947235.mp4))](screenshots/LabTest1_1947235.mp4)
+[![Screen record](screenshots/LabTest1_1947235.mp4)](screenshots/LabTest1_1947235.mp4)
 
 
 ## Screenshots
@@ -16,15 +16,15 @@
 ![Login page](screenshots/login.png)
 
 #### 3. Home page
-![Home page](screenshots/homePage.png)
+![Home page](screenshots/FoodMenu.png)
 
 #### 4. FoodMenu page
 ![FoodMenu page](screenshots/FoodMenu.png)
 
 ### Database
 - Login Table
-![Login Table](screenshots/table1.png)
+![Login Table](screenshots/table2.png)
 
 - Food Table
-![Food Table](screenshots/table2.png)
+![Food Table](screenshots/table1.png)
 
