@@ -66,16 +66,25 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Database3DataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormCRUD.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormCRUD.Designer.cs">
+      <DependentUpon>FormCRUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFontDialoge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFontDialoge.Designer.cs">
+      <DependentUpon>FormFontDialoge.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FormCRUD.resx">
+      <DependentUpon>FormCRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFontDialoge.resx">
+      <DependentUpon>FormFontDialoge.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

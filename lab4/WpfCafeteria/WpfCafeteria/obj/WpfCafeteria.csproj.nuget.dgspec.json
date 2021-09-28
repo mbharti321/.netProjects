@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mbhar\\Desktop\\MCA\\dotNetProjects\\WpfCafeteria\\WpfCafeteria\\WpfCafeteria.csproj": {}
+    "C:\\Users\\mbhar\\Desktop\\MCA\\dotNetProjects\\lab4\\WpfCafeteria\\WpfCafeteria\\WpfCafeteria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mbhar\\Desktop\\MCA\\dotNetProjects\\WpfCafeteria\\WpfCafeteria\\WpfCafeteria.csproj": {
+    "C:\\Users\\mbhar\\Desktop\\MCA\\dotNetProjects\\lab4\\WpfCafeteria\\WpfCafeteria\\WpfCafeteria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mbhar\\Desktop\\MCA\\dotNetProjects\\WpfCafeteria\\WpfCafeteria\\WpfCafeteria.csproj",
+        "projectUniqueName": "C:\\Users\\mbhar\\Desktop\\MCA\\dotNetProjects\\lab4\\WpfCafeteria\\WpfCafeteria\\WpfCafeteria.csproj",
         "projectName": "WpfCafeteria",
-        "projectPath": "C:\\Users\\mbhar\\Desktop\\MCA\\dotNetProjects\\WpfCafeteria\\WpfCafeteria\\WpfCafeteria.csproj",
+        "projectPath": "C:\\Users\\mbhar\\Desktop\\MCA\\dotNetProjects\\lab4\\WpfCafeteria\\WpfCafeteria\\WpfCafeteria.csproj",
         "packagesPath": "C:\\Users\\mbhar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mbhar\\Desktop\\MCA\\dotNetProjects\\WpfCafeteria\\WpfCafeteria\\obj\\",
+        "outputPath": "C:\\Users\\mbhar\\Desktop\\MCA\\dotNetProjects\\lab4\\WpfCafeteria\\WpfCafeteria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mbhar\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -16,7 +16,7 @@ namespace university
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formUniversity());
+            Application.Run(new formFontDialogeBox());
         }
     }
 }
